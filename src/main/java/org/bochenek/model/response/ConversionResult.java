@@ -7,13 +7,12 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Pair {
+public class ConversionResult {
 
-    private String pairRef;
-    private BigDecimal pairRate;
-    private String pairChartLink;
+    private BigDecimal amount;
 }

@@ -8,4 +8,7 @@ public class ECBConst {
     public static final BigDecimal BASE_RATE=BigDecimal.ONE;
     public static final String DELIMITER="/";
 
+    public static final String LINK_BEG = "https://www.google.com/search?q=google+";
+    public static final String LINK_DELIMITER = "+";
+
 }
